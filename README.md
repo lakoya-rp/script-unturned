@@ -1,8 +1,8 @@
 ## Unturned Script
 
-## C'est quoi
+## C'est quoi ?
 
-C'est un script qui automatise la création de serveur Unturned sous Linux. Le script vous pose une série de question, puis installa automatiquement Unturned.
+C'est un script qui automatise la création de serveur Unturned sous Linux. Le script vous pose une série de questions, puis installera automatiquement Unturned.
 Utile, non ?
 
 ## Pourquoi ?
