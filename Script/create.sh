@@ -191,10 +191,10 @@ fi
 
 sleep 5s
 cd "$folder"
-wget https://raw.githubusercontent.com/julien040/Unturned-Linux/master/Script/run-rm5.sh
+wget https://raw.githubusercontent.com/lakoya-rp/script-unturned/master/Script/run-rm5.sh
 chmod 777 rum-rm5.sh
 
-wget https://raw.githubusercontent.com/julien040/Unturned-Linux/master/Script/update-server.sh
+wget https://raw.githubusercontent.com/lakoya-rp/script-unturned/master/Script/update-server.sh
 chmod 777 update-server.sh
 clear
 #Installation de Rocket
