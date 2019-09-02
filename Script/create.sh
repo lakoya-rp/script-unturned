@@ -22,8 +22,8 @@ if [[ $EUID -ne 0 ]]; then
    sleep 2s
    exit 1
 fi
-clear
 sleep 10s
+clear
 echo "Vous allez être guidé pas à pas du début de l'installation jusqu'à la finalisation du serveur"
 echo ""
 echo "En cas de problème, merci de contacter Julien via https://github.com/julien040/Unturned-Linux"
