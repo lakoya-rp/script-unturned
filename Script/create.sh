@@ -68,6 +68,7 @@ done
 if [ "$yet" = "n" ]
     then 
     echo -e "\e[36mPuisque c'est la première installation d'un serveur Unturned, le script va installer les dépendences"
+    sleep 2s
     apt-get update
     apt-get upgrade -y
     apt-get install -y unzip tar wget coreutils lib32gcc1 libgdiplus mono-complete screen
@@ -77,6 +78,7 @@ if [ "$yet" = "n" ]
 elif [ "$yet" = "y" ]
     then
     echo -e "\e[36mMalgré que vous avez déjà installé Unturned sur cette machine, le script va mettre à jour les dépendences"
+    sleep 2s
     apt-get update
     apt-get upgrade
     echo ""
@@ -92,15 +94,18 @@ read -p "Indiquez le chemin complet du dossier sinon Unturned s'installera dans 
 if [ -d "$folder" ]
     then
     echo -e "\e[36mLe serveur sera installé dans $folder"
+    sleep 2s
 
 else 
     mkdir "$folder"
     if [ -d "$folder" ]
         then
         echo -e "\e[36mLe script a réussi à créer le dossier. Le serveur sera donc installé dans $folder"
+        sleep 2s
     else
         folder=$PWD
         echo -e  "\e[36mLe script n'a pas réussi à créer le dossier. Le script sera installé dans $PWD"
+        sleep 2s
     fi
 fi
 #Choix du nom du serveur
